@@ -44,13 +44,15 @@ This project is a fully interactive 3D simulation of our solar system built usin
 
 > Make sure Python is installed
 
+`# For Python 3
+python -m http.server 8000`
+
 ---
+
 
 ### LIVE DEMO LINK
 https://astounding-kheer-7c9fbc.netlify.app/
 
-```bash
-# For Python 3
-python -m http.server 8000
+
 
 
