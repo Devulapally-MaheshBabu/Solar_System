@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic HTML setup with responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Solar System : Explore the 3D Solar System</title>
+     <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="images/solar-system.webp" type="image/webp">
+    
+</head>
+<body>
+    <!-- Information display box -->
+    <div id="info">
+        <h2>3D Solar System</h2>
+        <p>Touch to rotate, pinch to zoom</p>
+    </div>
+    
+    <!-- Control panel with speed controls -->
+    <div id="controls">
+        <!-- Button to toggle planet speed controls visibility -->
+        <button id="toggleSpeedControls">Hide Planet Speeds</button>
+        
+        <!-- Global speed control slider -->
+        <div class="control-group">
+            <label for="globalSpeed">Global Speed: <span class="speed-value" id="globalSpeedValue">1</span>x</label>
+            <input type="range" id="globalSpeed" min="0" max="5" step="0.1" value="1" oninput="document.getElementById('globalSpeedValue').textContent = this.value">
+        </div>
+        <!-- Planet speed controls will be added by JavaScript -->
+    </div>
+    
+    <!-- Container for dat.GUI interface -->
+    <div class="gui-container" id="gui-container"></div>
+
+    <!-- Three.js and related libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.7/build/dat.gui.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
