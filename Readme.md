@@ -24,7 +24,7 @@ This project is a fully interactive 3D simulation of our solar system built usin
 
 ### ✅ Prerequisites
 
-- A modern browser (Chrome, Firefox, Edge)
+- A modern browser 
 - A local server (recommended)
   - You can use VSCode with Live Server
   - Or use Python/Node to serve files
@@ -52,6 +52,7 @@ python -m http.server 8000`
 
 ### LIVE DEMO LINK
 https://astounding-kheer-7c9fbc.netlify.app/
+
 
 
 
