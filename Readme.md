@@ -1,10 +1,10 @@
-# 🌌 3D Solar System Simulation
+# 3D Solar System Simulation
 
 This project is a fully interactive 3D simulation of our solar system built using **Three.js**, showcasing planets orbiting the Sun with realistic textures, lighting, and rotation.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Realistic orbiting and rotating planets
 - Moon orbiting Earth
@@ -18,11 +18,11 @@ This project is a fully interactive 3D simulation of our solar system built usin
 ---
 
 
-## 🛠️ How to Run Locally
+## How to Run Locally
 
-> 💡 **No frameworks needed** — just basic HTML + JS + Three.js
+>  **No frameworks needed** — just basic HTML + JS + Three.js
 
-### ✅ Prerequisites
+### Prerequisites
 
 - A modern browser 
 - A local server (recommended)
@@ -31,7 +31,7 @@ This project is a fully interactive 3D simulation of our solar system built usin
 
 ---
 
-### 💻 Method 1: Using VSCode + Live Server
+### Method 1: Using VSCode + Live Server
 
 1. Open the project folder in **Visual Studio Code**
 2. Install the **Live Server** extension (if not already)
@@ -40,7 +40,7 @@ This project is a fully interactive 3D simulation of our solar system built usin
 
 ---
 
-### 🌐 Method 2: Using Python HTTP Server
+### Method 2: Using Python HTTP Server
 
 > Make sure Python is installed
 
@@ -52,6 +52,7 @@ python -m http.server 8000`
 
 ### LIVE DEMO LINK
 https://astounding-kheer-7c9fbc.netlify.app/
+
 
 
 
